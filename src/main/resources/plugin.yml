@@ -1,0 +1,14 @@
+name: SkyWars
+version: 1.0
+authors:
+  - DROLPI
+
+main: de.drolpi.skywars.bootstrap.SkyWarsPlugin
+
+commands:
+  forcestart:
+    aliases:
+      - start
+  setup:
+  wtp:
+  select:
