@@ -8,17 +8,14 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven("https://repo.thesimplecloud.eu/artifactory/list/gradle-release-local/")
     maven("https://repo.dmulloy2.net/repository/public/")
-    maven("https://repo.velocitypowered.com/snapshots/")
     maven("https://papermc.io/repo/repository/maven-public/")
 }
 
 dependencies {
-    compileOnly("org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT")
-    compileOnly("org.projectlombok:lombok:1.18.16")
-    annotationProcessor("org.projectlombok:lombok:1.18.16")
+    compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
     implementation("org.jetbrains:annotations:20.1.0")
+
 }
 
 tasks {
